@@ -20,6 +20,6 @@ io.on('connection', function(socket){
 	});
 });
 
-http.listen(3000, 'localhost', function(){
+http.listen(process.env.PORT, 'localhost', function(){
 	console.log('listening on *:3000');
 });
