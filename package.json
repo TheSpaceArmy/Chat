@@ -1,0 +1,15 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Simple Express.io Chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Luca",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.11.2",
+    "socket.io": "^1.3.3"
+  }
+}
