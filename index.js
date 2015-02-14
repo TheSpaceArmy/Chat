@@ -21,5 +21,5 @@ io.on('connection', function(socket){
 });
 
 http.listen(process.env.PORT, function(){
-	console.log('fuck');
+	console.log('nothing?');
 });
